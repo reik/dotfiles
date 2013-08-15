@@ -18,6 +18,10 @@ set shiftwidth=4
 set expandtab
 set showtabline=2
 
+set backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
+
 augroup vimrc_autocmds
         autocmd!
             " highlight characters past column 120
@@ -53,7 +57,5 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'klen/python-mode'
 Bundle 'davidhalter/jedi-vim'
-
-set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
+Bundle 'git://github.com/Valloric/MatchTagAlways.git'
+Bundle 'Valloric/MatchTagAlways'
