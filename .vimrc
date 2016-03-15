@@ -77,6 +77,7 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
+NeoBundle 'rking/ag.vim'
 
 " Required:
 call neobundle#end()
